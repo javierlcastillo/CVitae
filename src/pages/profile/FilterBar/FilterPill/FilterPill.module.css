@@ -1,0 +1,16 @@
+.filterPill {
+    padding: 5px;
+    border: 1px solid var(--primary-teal);
+    margin: 5px;
+    border-radius: 999px;
+    background-color: var(--card-bg);
+    border-color: var(--card-bg);
+    color: var(--primary-teal)
+}
+
+.active {
+    background-color: var(--primary-teal);
+    border-color: var(--primary-teal);
+    color: var(--card-bg);
+    text-decoration: underline;
+}

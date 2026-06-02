@@ -1,0 +1,72 @@
+.profilePage {}
+
+.activateFilter {
+    display: none;
+}
+
+.filterContainer {
+    position: relative;
+}
+
+.filterDropDown {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .filterBar {
+        display: none;
+    }
+
+    .searchAndFilter {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-grow: 1;
+    }
+
+    .activateFilter {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        flex-grow: 0;
+        border-radius: 10px;
+        color: aquamarine;
+        background-color: var(--primary-teal);
+    }
+
+    .filterDropDown {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        background-color: var(--light-teal);
+        border-radius: 8px;
+        font-size: .7rem;
+        top: 100%;
+        right: 0;
+        z-index: 1000;
+        padding: 5px;
+        gap: 2px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    }
+
+    .dropDownItem {
+        border: none;
+        outline: none;
+        background: transparent;
+        padding: 6px 12px;
+        text-align: left;
+        border-radius: 5px;
+        cursor: pointer;
+        color: var(--primary-dark);
+    }
+
+    .dropDownItem:hover {
+        background-color: var(--primary-teal);
+        color: white;
+    }
+
+    .activeItem {
+        background-color: var(--primary-teal);
+        color: white;
+    }
+}

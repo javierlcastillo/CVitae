@@ -1,0 +1,32 @@
+.searchBar {
+    position: relative;
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-start;
+    flex-direction: row;
+    font-size: .8 rem;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    width: 100%; 
+    background-color: var(--light-teal);
+    border: 1px solid var(--primary-teal);
+    border-radius: 10px;
+    justify-content: flex-start;
+    font-size: .8 rem;
+    padding-left: 10px;
+}
+
+.searchInput::placeholder {
+    color: var(--text-muted);
+}
+.searchInput::selection {
+    border:3px solid var(--primary-teal);
+}
+.searchInput{
+    flex-grow: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    
+}

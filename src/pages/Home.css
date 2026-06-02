@@ -1,5 +1,4 @@
 .home-container {
-    padding-top: 88px;
     position: relative;
     margin-left: 40px;
     min-height: 100vh;
@@ -179,6 +178,12 @@
 }
 
 @media screen and (max-width: 600px) {
+    .home-container {
+        position: relative;
+        margin-left: 40px;
+        margin-right: 40px;
+        min-height: 100vh;
+    }
     .introduction-grid {
         display: block;
     }

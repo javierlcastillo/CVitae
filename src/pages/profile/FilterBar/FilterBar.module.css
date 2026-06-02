@@ -1,0 +1,8 @@
+.filterBar {
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    margin-left: 10px;
+    z-index: 99999;
+}
